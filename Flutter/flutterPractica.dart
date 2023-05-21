@@ -1,13 +1,13 @@
 void main() {
-  var uwu = "uwu";
+  var mensaje = "Texto de Ejemplo";
   var cont = 0;
 
   for (var i = 0; i <= 100; i += 2) {
     print(i);
     if (i == 50) {
-      print(uwu);
+      print(mensaje);
     } else if (i == 70) {
-      print("owo");
+      print("Texto 2");
     }
   }
 
