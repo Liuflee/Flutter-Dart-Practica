@@ -10,7 +10,7 @@ class Portafolio extends StatelessWidget {
     return const MaterialApp(
       title: "Portafolio de Anette",
       home: Inicio(),
-    );  
+    );
   }
 }
 
@@ -28,9 +28,7 @@ class _InicioState extends State<Inicio> {
       appBar: AppBar(
         title: Text("Portafolio de Anette"),
       ),
-      body: Center(
-        child: Text("Contenido")
-        ),
+      body: Center(child: Text("Contenido")),
     );
   }
 }
